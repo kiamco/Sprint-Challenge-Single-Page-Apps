@@ -13,7 +13,7 @@ export default function TabNav() {
                 </NavLink>
             </a>
             <a class="item">
-                <NavLink exact className="characters">
+                <NavLink exact className="characters" to={'/characters'}>
                     <Icon name='users' size='large' color='black' />
                     Characters
                 </NavLink>
