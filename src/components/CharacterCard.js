@@ -10,7 +10,7 @@ export default function CharacterCard(props) {
             <div class="content">
                 <div class="header">name</div>
                 <div class="meta">
-                    <span class="date">Species: {species}</span>
+                    <span class="date">Species: {species} Alive</span>
                 </div>
           <div class="description"><p>Location: {location}</p> 
             <p>Origin: {origin}</p> 
@@ -19,7 +19,6 @@ export default function CharacterCard(props) {
             <div class="extra content">
                 <a>
                     <i aria-hidden="true" class="user icon"></i>
-                    22 Friends
                 </a>
             </div>
         </div>

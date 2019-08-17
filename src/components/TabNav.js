@@ -19,7 +19,7 @@ export default function TabNav() {
                 </NavLink>
             </a>
             <a class="item">
-                <NavLink exact className="loaction">
+                <NavLink exact className="location" to={'/location'}>
                     <Icon name='map' size='large' color='black' />
                     Location
                 </NavLink>
@@ -31,6 +31,5 @@ export default function TabNav() {
                 </NavLink>
             </a>
         </div>
-
     )
 };
