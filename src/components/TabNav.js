@@ -19,13 +19,13 @@ export default function TabNav() {
                 </NavLink>
             </a>
             <a class="item">
-                <NavLink exact className="location" to={'/location'}>
+                <NavLink exact className="location" to={'/locations'}>
                     <Icon name='map' size='large' color='black' />
                     Location
                 </NavLink>
             </a>
             <a class="item">
-                <NavLink exact className="episode">
+                <NavLink exact className="episode" to={'/episodes'}>
                     <Icon name='video camera' size='large' color='black' />
                     Episode
                 </NavLink>

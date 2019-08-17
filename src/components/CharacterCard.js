@@ -10,7 +10,7 @@ export default function CharacterCard(props) {
             <div class="content">
                 <div class="header">name</div>
                 <div class="meta">
-                    <span class="date">Species: {species} Alive</span>
+                    <span class="date">Species: {species}</span>
                 </div>
           <div class="description"><p>Location: {location}</p> 
             <p>Origin: {origin}</p> 
