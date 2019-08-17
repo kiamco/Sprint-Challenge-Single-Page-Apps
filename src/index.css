@@ -45,5 +45,5 @@ a {
 }
 
 .active {
-    font-weight: bolder;
+    background: teal;
 }

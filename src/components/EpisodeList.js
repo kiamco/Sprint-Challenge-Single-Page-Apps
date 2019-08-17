@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import Axios from 'axios';
 import EpisodeCard from './EpisodeCard';
+import Pagination from './pagination';
 
 const EpisodeList = (props) => {
     // create state
@@ -21,8 +22,15 @@ const EpisodeList = (props) => {
 
     return (
         <section className = "episode-list grid-view" > 
-            {episodes.map(el => <EpisodeCard name={el.name} episode={el.episode} airDate={el.air_date} url={el.url}/>)}
+            {episodes.map(el => 
+                <EpisodeCard 
+                name={el.name} 
+                episode={el.episode} 
+                airDate={el.air_date} 
+                url={el.url}/>)
+                }
         </section>
+ 
         )
 }
 

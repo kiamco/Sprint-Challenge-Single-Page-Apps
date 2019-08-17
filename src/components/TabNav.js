@@ -6,30 +6,31 @@ import {NavLink} from "react-router-dom";
 export default function TabNav() {
     return (
         <div class="ui menu">
-            <a class="item">
-                <NavLink exact activeClassName="active" to={'/'}>
+            <NavLink exact activeClassName="active" to={'/'}>
+                <a class="item">
                     <Icon name='home' size='large' color='black'/>
                     Homepage
-                </NavLink>
-            </a>
-            <a class="item">
-                <NavLink exact activeClassName="active" to={'/characters'}>
+                </a>
+            </NavLink>
+            <NavLink exact activeClassName="active" to={'/characters'}>
+                <a class="item">
                     <Icon name='users' size='large' color='black'/>
                     Characters
-                </NavLink>
-            </a>
-            <a class="item">
-                <NavLink exact activeClassName="active" to={'/locations'}>
+                </a>
+            </NavLink>
+            <NavLink exact activeClassName="active" to={'/locations'}>
+                <a class="item">
                     <Icon name='map' size='large' color='black'/>
                     Location
-                </NavLink>
-            </a>
-            <a class="item">
-                <NavLink exact activeClassName="active"to={'/episodes'}>
+                </a>
+            </NavLink>
+            <NavLink exact activeClassName="active" to={'/episodes'}>
+                <a class="item">
                     <Icon name='video camera' size='large' color='black'/>
                     Episode
-                </NavLink>
-            </a>
+                </a>
+            </NavLink>
+
             <div class="right menu">
                 <div class="item">
                     <div class="ui icon input">
