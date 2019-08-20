@@ -2,8 +2,8 @@ import React from 'react';
 import { Pagination } from 'semantic-ui-react';
 
 const PaginationExampleCompact = (props) => {
-    return ( 
-      < Pagination boundaryRange = { 0 }
+    return ( <
+        Pagination boundaryRange = { 0 }
         defaultActivePage = { 1 }
         ellipsisItem = { null }
         firstItem = { null }
@@ -12,6 +12,7 @@ const PaginationExampleCompact = (props) => {
         totalPages = { 10 }
         />
     )
+
 }
 
 export default PaginationExampleCompact
